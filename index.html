@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="Capture1.PNG" type="image/x-icon">
     
 </head>
 <body>
@@ -16,24 +17,27 @@
                 <li><a href="#Skills">Skills</a></li>
                 <li><a href="#Experience">Experience</a></li>
                 <li><a href="#AboutMe">About Me</a></li>
-
+                <li><button onclick="darkFunction()">Dark Mode</button></li>
             </ul>
         </nav>
     </div>
-    <center>
-    <div id="AboutMe">
-        <img src="SSDIT.jpg" alt="My image"/>
-        <p>I am Sangeetha, a graduate from SPPU University with a B.E in Computer Engineering. I am incredibly excited about Software development.</p>
+    
+    <div id="Home">
+        <img src="Capture1.PNG" alt="My image"/>
+        <div><p>I am Sangeetha, a graduate from SPPU University with a B.E in Computer Engineering. I am incredibly excited about Software development.</p>
         <br>
         <p>I am working in Infosys.ltd as a Technology Analyst. I am thrilled to work in Software projects.</p><br>
         <p>Outside of work and academics, I enjoy painting, reading and doing Yoga.</p><br><br>
     </div>
-</center>
+    </div>
+
     <hr>
     <div id="Skills">
-        <h1>Skills:</h1>
-        <p>Data Structures and Algorithm | HTML | CSS | Javascript | C++ | Redwood | JIRA | ServiceNow | Microfocus | Mainframe Environment | SQL | Production Support</p>
-
+        <h1>Skills</h1>
+        <p>Data Structures and Algorithm | HTML | CSS | Javascript | C++ | GIT | Redwood | JIRA | ServiceNow | Microfocus
+             | Mainframe Environment | SQL | Production Support | putty</p>
+            <img src="Skills.jpg" alt="Skills image">
+        
     </div>
     <hr>
     <div id="Projects">
@@ -85,7 +89,17 @@
 
     <div id="footer">
         <p>2025, Sangeetha Sahadevan</p>
-        <p>Contact details:<br> Mob No <br> Email: sangeethasahadevan@outlook.com </p>
+        <p>Contact Me:<br> 
+            <!-- <input type="text" id="Name" placeholder="Name"/><br>
+            <input type="text" id="Email" placeholder="Email"/><br> -->
+            <!-- <textarea></textarea> No <br> Email: sangeethasahadevan@outlook.com </p> -->
+            Email: sangeethasahadevan@outlook.com
     </div>
+    <script>
+        function darkFunction(){
+            let element = document.body;
+            element.classList.toggle("dark");
+        }
+    </script>
 </body>
 </html>

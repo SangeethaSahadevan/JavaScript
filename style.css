@@ -6,13 +6,16 @@
     background-color: lightseagreen;
     display: flex;
     height: 80px;
-    
+    align-items: flex-end;
+    justify-content: flex-end;
+
 }
 
-#Name{
+#header #Name{
     
     font-weight: bolder;
-    
+    justify-content: left;
+    align-self: flex-start;
 }
 
 #header-items{
@@ -43,14 +46,52 @@ details>summary{
     text-align: center;
 }
 
-#AboutMe>p{
+#Home>p{
     width: 500px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
 }
-img{
+#Home>img{
     height: 250px;
-    width: 200px;
-    border-radius: 100%;
+    width: 150px;
+    border-radius: 5%;
     margin: 60px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footer{
+    background-color: black;
+    color: beige;
+}
+
+#Skills h1{
+    color: rgb(30, 30, 190);
+    text-decoration: underline;
+    justify-self:center;
+}
+
+
+#Skills>p{
+    display: inline-block;
+    height: 30px;
+    width: 50em;
+    font-weight: bolder;
+    margin: 10px;
+    padding: 20px;
+}
+
+#Skills>p:hover{
+    transform: rotateX(360deg);
+    transition: 2s;
+}
+#Skills>img{
+    border-radius: 5px;
+    height: 20em;
+    width: 200px;
+    
+    
+}
+.dark{
+    background-color: black;
+    color: azure;
 }
