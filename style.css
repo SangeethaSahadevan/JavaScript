@@ -74,20 +74,23 @@ details>summary{
 #Skills>p{
     display: inline-block;
     height: 30px;
-    width: 50em;
+    width: 30em;
     font-weight: bolder;
-    margin: 10px;
+    font-family: cursive;
+    margin: 100px;
     padding: 20px;
+    
+    justify-content: space-around;
 }
 
 #Skills>p:hover{
-    transform: rotateX(360deg);
+    transform: rotate(360deg);
     transition: 2s;
 }
 #Skills>img{
     border-radius: 5px;
-    height: 20em;
-    width: 200px;
+    height: 200px;
+    width: 300px;
     
     
 }
